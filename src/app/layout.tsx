@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="scroll-smooth bg-gray-900 text-slate-100 overflow-x-hidden">
         <div className="flex flex-col md:flex-row w-full md:justify-center">
         <Navbar />
-        <main className="p-4 md:w-lg md:mt-26 text-left md:mr-12">
+        <main className="p-4 md:w-md md:mt-23 text-left text-pretty md:pl-0 md:mr-10">
           {children}
         </main>
          </div>

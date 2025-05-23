@@ -4,8 +4,8 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <>
-    <h2 className="text-base text-slate-300 font-bold mb-2">Now</h2>
-    <div className="text-sm font-sans">
+    <h2 className="text-base text-slate-300 font-bold mb-px">Now</h2>
+    <div className="text-sm font-sans space-y-5">
         <p>
             This is the now page
         </p>
