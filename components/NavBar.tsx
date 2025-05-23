@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export function Navbar() {
     return (
-        <div className="md:sticky md:top-10 flex flex-col items-center mb-2 md:ml-55 md:mr-6 p-4 md:w-48 w-full md:mt-15">
+        <div className="md:sticky md:top-10 flex flex-col items-center mb-2 p-4 md:w-3xs w-full md:mt-13">
             <div>
                 <div className="font-bold text-center mt-2 mb-2 md:text-left text-xl text-nowrap">
                 <Link href="/"><h2>L. Zhen Yi</h2></Link>
