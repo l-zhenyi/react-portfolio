@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import { Quotes } from '../../components/Quotes';
+import { Quotes } from '@/components/Quotes';
 
 export default function Home() {
 const quotes = [
@@ -32,7 +31,7 @@ const quotes = [
       <h2 className="text-md text-slate-300 font-bold mb-px">Home</h2>
       <div className="text-base font-sans space-y-5 justify-center">
         <p>
-          Hi. You’ve stumbled across my website. In case you're feeliing a little lost, have no fear. You're now on the homepage.<br></br>
+          Hi. You’ve stumbled across my website. In case you're feeliing a little lost, have no fear. You're just on the homepage.<br></br>
           Feel free to venture further with the trusty navigation bar at the top. <br></br>
         </p> 
         <p>
@@ -54,7 +53,7 @@ const quotes = [
             href="mailto:your@email.com"
             className="pl-4 font-bold text-slate-400 hover:underline"
           >
-            email
+            Email
           </a>{' '}
           <a
             href="https://linkedin.com/in/yourprofile"
@@ -62,7 +61,7 @@ const quotes = [
             rel="noopener noreferrer"
             className="font-bold text-slate-400 hover:underline"
           >
-            linkedin
+            LinkedIn
           </a>{' '}
           <a
             href="https://github.com/yourusername"
@@ -70,7 +69,7 @@ const quotes = [
             rel="noopener noreferrer"
             className="font-bold text-slate-400 hover:underline"
           >
-            github
+            GitHub
           </a>
           </span>
         </p>

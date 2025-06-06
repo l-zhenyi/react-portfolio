@@ -5,12 +5,34 @@ export default function Home() {
   return (
     <>
 
-    <h2 className="text-base text-slate-300 font-bold mb-px">Projects</h2>
-    <div className="text-sm font-sans space-y-5">
-        <p>
-            This is the projects page
-        </p>
-        </div>
+<ul className="text-sm font-sans space-y-5 list-disc list-inside">
+        <li>
+          <span className="font-semibold">Battleship Server</span>: A multiplayer Battleship server with reconnection and spectators.
+          <div className="text-slate-400 text-sm ml-5">
+            <a
+              href="https://github.com/yourusername/battleship-server"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Source code ↗
+            </a>
+          </div>
+        </li>
+        <li>
+          <span className="font-semibold">Fantasy Tracker</span>: A reading tracker app built with Flask and SQLAlchemy.
+          <div className="text-slate-400 text-sm ml-5">
+            <a
+              href="https://github.com/yourusername/fantasy-tracker"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Source code ↗
+            </a>
+          </div>
+        </li>
+      </ul>
     </>
   )
 }
