@@ -13,7 +13,7 @@ export function Navbar() {
                     / zhēn yí /
                 </span>
                 </div>
-                     <div className="flex flex-wrap justify-center space-x-2 text-lg gap-2 md:flex-nowrap md:justify-end md:space-x-4 md:gap-0">
+                     <div className="flex flex-wrap justify-center space-x-2 text-base font-bold gap-2 md:flex-nowrap md:justify-end md:space-x-4 md:gap-0">
                         <Link href="/" className="text-slate-400 hover:underline">Home</Link>
                         <Link href="/about" className="text-slate-400 hover:underline">About</Link>
                         <Link href="/projects" className="text-slate-400 hover:underline">Projects</Link>

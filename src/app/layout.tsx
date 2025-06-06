@@ -17,15 +17,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
+    <div className="md:mt-10 md:mb-20">
     <html className="scroll-smooth" lang="en">
-      <body className="scroll-smooth bg-gray-900 text-slate-100 overflow-x-hidden">
+      <body className="scroll-smooth text-slate-100 overflow-x-hidden">
         <div className="flex flex-col w-full justify-center">
         <Navbar />
-        <main className="p-4 md:w-3xl justify-center text-left text-pretty mx-auto md:mt-2">
+        <main className="p-4 md:w-xl justify-center text-left text-pretty mx-auto md:pt-10">
           {children}
         </main>
          </div>
       </body>
     </html>
+    </div>
   )
 }

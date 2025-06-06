@@ -2,37 +2,77 @@ import Head from 'next/head'
 import { Quotes } from '../../components/Quotes';
 
 export default function Home() {
-    const quotes = [
-    "\"People like you must create. If you don't create, (...), you will become a menace to society.\"\nMaria Semple, Where'd You Go, Bernadette",
-    "\"...monsters, I believe, are patron saints of our blissful imperfection, and they allow and embody the possibility of failing.\"\nGuillermo del Toro",
-    "\"Whenever you feel afraid, just remember. Courage is the root of change - and change is what we're chemically designed to do.\"\nBonnie Garmus, Lessons in Chemistry",
-    "\"The only thing I do know is that we have to be kind. Please, be kind. Especially when we don't know what's going on.\"\nKe Huy Quan, Everything Everywhere All At Once",
-  ];
+const quotes = [
+  {
+    text: "People like you must create. If you don't create, (...), you will become a menace to society.",
+    author: "Maria Semple, Where'd You Go, Bernadette",
+  },
+  {
+    text: "...monsters, I believe, are patron saints of our blissful imperfection, and they allow and embody the possibility of failing.",
+    author: "Guillermo del Toro",
+  },
+  {
+    text: "Whenever you feel afraid, just remember. Courage is the root of change - and change is what we're chemically designed to do.",
+    author: "Bonnie Garmus, Lessons in Chemistry",
+  },
+  {
+    text: "The only thing I do know is that we have to be kind. Please, be kind. Especially when we don't know what's going on.",
+    author: "Ke Huy Quan, Everything Everywhere All At Once",
+  },
+];
+
 
   return (
     <>
-      <h2 className="text-md text-slate-300 font-bold mb-px">Home</h2>
+      <div className="md:py-8">
       <Quotes quotes={quotes} />
-      <div className="text-base font-sans space-y-5">
+      </div>
+
+
+      <h2 className="text-md text-slate-300 font-bold mb-px">Home</h2>
+      <div className="text-base font-sans space-y-5 justify-center">
         <p>
-          Hi. It seems you’ve stumbled across my website. In case you’re a bit lost, you’re currently on the homepage. 
+          Hi. You’ve stumbled across my website. In case you're feeliing a little lost, have no fear. You're now on the homepage.<br></br>
+          Feel free to venture further with the trusty navigation bar at the top. <br></br>
+        </p> 
+        <p>
+          Reading sparked my preference for minimalist, text-based mediums, which in turn, has heavily 
+          influenced the style of this website.
         </p>
         <p>
-          Feel free to venture further with the trusty navigation bar at the top. 
+          It’s my earnest hope you'll find some small interesting snippets to read around here. There are some cool
+          things for you to find around here if you tap on them.<br></br>
+          The quote at the top might be a good place to start.
         </p>
         <p>
-          My enthusiasm for reading sparked my preference for minimalist, text-based styles, which in turn,
-          has heavily influenced this website. It’s my earnest hope you find some small interesting snippets 
-          to read around here.
+          You’re welcome to stay for as long as you need. Thanks for stopping by.
         </p>
         <p>
-            Maybe the quote at the top would be an interesting place to start?
-        </p>
-        <p>
-          You’re welcome to stay for as long as you want. Thanks for stopping by.
-        </p>
-        <p>
-          I can always be found at: email linkedin github
+          I can always be found at: {' '}
+          <span className="inline-flex space-x-4">
+          <a
+            href="mailto:your@email.com"
+            className="pl-4 font-bold text-slate-400 hover:underline"
+          >
+            email
+          </a>{' '}
+          <a
+            href="https://linkedin.com/in/yourprofile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-slate-400 hover:underline"
+          >
+            linkedin
+          </a>{' '}
+          <a
+            href="https://github.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-slate-400 hover:underline"
+          >
+            github
+          </a>
+          </span>
         </p>
     </div>
     </>
