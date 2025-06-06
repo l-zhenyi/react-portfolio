@@ -19,9 +19,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html className="scroll-smooth" lang="en">
       <body className="scroll-smooth bg-gray-900 text-slate-100 overflow-x-hidden">
-        <div className="flex flex-col md:flex-row w-full md:justify-center">
+        <div className="flex flex-col w-full justify-center">
         <Navbar />
-        <main className="p-4 md:w-md md:mt-23 text-left text-pretty md:pl-0 md:mr-10">
+        <main className="p-4 md:w-3xl justify-center text-left text-pretty mx-auto md:mt-2">
           {children}
         </main>
          </div>

@@ -7,7 +7,7 @@ export default function Home() {
     <h2 className="text-base text-slate-300 font-bold mb-px">etc.</h2>
     <div className="text-sm font-sans space-y-5">
         <p>
-            This is the etc. page
+            This is the Misc. page
         </p>
     </div>
     </>
