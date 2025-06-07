@@ -15,11 +15,11 @@ export default function Home() {
         For more information, you can find my 
         <a href="/assets/Lim_ZhenYi_Resume.pdf" className="text-slate-400 font-bold  hover:underline"> resume </a>     
         and I am always available via 
-        <a href="mailto:your@email.com" className="font-bold text-slate-400 hover:underline"> Email </a> 
+        <a href="mailto:zhenyi.lim.mail@gmail.com" className="font-bold text-slate-400 hover:underline"> Email </a> 
         and  
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" className="font-bold text-slate-400 hover:underline"> LinkedIn</a>{' '}<br></br>
+        <a href="https://linkedin.com/in/l-zhenyi" target="_blank" className="font-bold text-slate-400 hover:underline"> LinkedIn</a>{' '}<br></br>
         You can also find all my projects and academic coursework at <a
-            href="https://github.com/yourusername"
+            href="https://github.com/l-zhenyi"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-slate-400 hover:underline"

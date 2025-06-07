@@ -17,9 +17,10 @@ export function Navbar() {
                         <Link href="/" className="text-slate-400 hover:underline">Home</Link>
                         <Link href="/about" className="text-slate-400 hover:underline">About</Link>
                         <Link href="/projects" className="text-slate-400 hover:underline">Projects</Link>
-                        <Link href="/assets/Lim_ZhenYi_Resume.pdf" className="text-slate-400 hover:underline">Resume</Link>                        
-                        <Link href="/now" className="text-slate-400 hover:underline">Now</Link>
-                        <Link href="/misc" className="text-slate-400 hover:underline">Misc.</Link>                       
+                        <Link href="/assets/Lim_ZhenYi_Resume.pdf" className="text-slate-400 hover:underline">Resume</Link>  
+                        {/* TODO: Need to add these pages back if they are needed (i.e. when I can write more)                       */}
+                        {/* <Link href="/now" className="text-slate-400 hover:underline">Now</Link>
+                        <Link href="/misc" className="text-slate-400 hover:underline">Misc.</Link>                        */}
                     </div>
             </div>
     )

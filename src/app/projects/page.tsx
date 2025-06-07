@@ -1,38 +1,54 @@
-// pages/index.tsx
-import Head from 'next/head'
+import ProjectItem from '@/components/ProjectItem';
+
 
 export default function Home() {
   return (
     <>
+<h2 className="text-md text-slate-300 font-bold mb-px mt-4">Projects</h2>
+<div className="text-base font-sans space-y-5 justify-center">
+  <p>
+    You have found a library with bound scrolls and books. There's bound to be something 
+    here that will pique your curiosity. You can tap on the links to examine them further. 
+  </p>
 
-<ul className="text-sm font-sans space-y-5 list-disc list-inside">
-        <li>
-          <span className="font-semibold">Battleship Server</span>: A multiplayer Battleship server with reconnection and spectators.
-          <div className="text-slate-400 text-sm ml-5">
-            <a
-              href="https://github.com/yourusername/battleship-server"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline"
-            >
-              Source code ↗
-            </a>
-          </div>
-        </li>
-        <li>
-          <span className="font-semibold">Fantasy Tracker</span>: A reading tracker app built with Flask and SQLAlchemy.
-          <div className="text-slate-400 text-sm ml-5">
-            <a
-              href="https://github.com/yourusername/fantasy-tracker"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline"
-            >
-              Source code ↗
-            </a>
-          </div>
-        </li>
-      </ul>
+</div>
+
+<ul className="text-base font-sans space-y-5 list-disc list-inside mt-6 md:my-10">
+      <ProjectItem
+        title="Forum"
+        description="A forum built with user posts, comments, and discussions, guided by a tutorial."
+        techStack="HTML, CSS, JavaScript, Python, Jinja, Flask, SQLite"
+        sourceLink="https://github.com/l-zhenyi/Forum"
+      />
+      <ProjectItem
+        title="Go Interpreter"
+        description="Implemented a custom interpreter in Golang, with parsing and syntax interpretation."
+        techStack="Golang"
+        sourceLink="https://github.com/l-zhenyi/Go_Interpreter"
+      />
+      <ProjectItem
+        title="Mini-Language to C Transpiler"
+        description="Built a transpiler in C to convert custom mini-language syntax into C code."
+        techStack="C"
+        note="No source code due to academic conduct rules"
+      />
+      <ProjectItem
+        title="SQL Series"
+        description="SQL projects for cleaning, querying, and visualizing data."
+        techStack="SQL, Tableau"
+        sourceLink="https://github.com/l-zhenyi/SQL"
+        additionalLink={{
+          label: 'Tableau Dashboards',
+          href: 'https://public.tableau.com/app/profile/zhen.yi.lim/vizzes',
+        }}
+      />
+      <ProjectItem
+        title="Portfolio Evolution"
+        description="Previous portfolio iterations showing progress in design and skills."
+        techStack="HTML, CSS, JavaScript"
+        sourceLink="https://github.com/l-zhenyi/OldPortfolios"
+      />
+    </ul>
     </>
   )
 }

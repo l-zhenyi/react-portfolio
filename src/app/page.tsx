@@ -40,7 +40,9 @@ const quotes = [
         </p>
         <p>
           It’s my earnest hope you'll find some small interesting snippets to read around here. There are some cool
-          things for you to find around here if you tap on them.<br></br>
+          things for you to find if you tap on them.
+        </p>
+        <p>
           The quote at the top might be a good place to start.
         </p>
         <p>
@@ -50,13 +52,13 @@ const quotes = [
           I can always be found at: {' '}
           <span className="inline-flex space-x-4">
           <a
-            href="mailto:your@email.com"
+            href="mailto:zhenyi.lim.mail@gmail.com"
             className="pl-4 font-bold text-slate-400 hover:underline"
           >
-            Email
+           Email
           </a>{' '}
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://linkedin.com/in/l-zhenyi"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-slate-400 hover:underline"
@@ -64,7 +66,7 @@ const quotes = [
             LinkedIn
           </a>{' '}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/l-zhenyi"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold text-slate-400 hover:underline"
