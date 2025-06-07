@@ -39,7 +39,7 @@ export default function Home() {
         sourceLink="https://github.com/l-zhenyi/SQL"
         additionalLink={{
           label: 'Tableau Dashboards',
-          href: 'https://public.tableau.com/app/profile/zhen.yi.lim/vizzes',
+          href: 'https://public.tableau.com/app/profile/l.zhenyi/vizzes',
         }}
       />
       <ProjectItem
