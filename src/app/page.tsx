@@ -53,7 +53,7 @@ const quotes = [
           <span className="inline-flex space-x-4">
           <a
             href="mailto:zhenyi.lim.mail@gmail.com"
-            className="pl-4 font-bold text-slate-400 hover:underline"
+            className="md:pl-4 font-bold text-slate-400 hover:underline"
           >
            Email
           </a>{' '}

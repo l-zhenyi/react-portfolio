@@ -1,14 +1,23 @@
 import ProjectItem from '@/components/ProjectItem';
+import { Exchange } from '@/components/Story';
 
+const narration = [
+  'You open the doors to an ancient library',
+  'Shelves of books and bound scrolls tower over you',
+  'This place greets you like an old friend',
+  'Intigued, you walk over to the nearest shelf',
+];
 
 export default function Home() {
   return (
     <>
+    <div className="md:py-8"><Exchange lines={narration} /></div>
+    
 <h2 className="text-md text-slate-300 font-bold mb-px mt-4">Projects</h2>
-<div className="text-base font-sans space-y-5 justify-center">
+<div className="text-base font-sans space-y-5 justify-center">      
   <p>
-    You have found a library with bound scrolls and books. There's bound to be something 
-    here that will pique your curiosity. You can tap on the links to examine them further. 
+    There's bound to be something here that will pique your curiosity. 
+    You can tap on the links to examine them further. 
   </p>
 
 </div>
