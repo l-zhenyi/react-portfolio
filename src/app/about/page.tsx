@@ -12,31 +12,46 @@ export default function Home() {
         from my studies and leverage my impact.
       </p>
       <p>
-        For more information, you can find my 
-        <a href="/assets/Lim_ZhenYi_Resume.pdf" className="text-slate-400 font-bold  hover:underline"> resume </a>     
-        and I am always available via 
-        <a href="mailto:zhenyi.lim.mail@gmail.com" className="font-bold text-slate-400 hover:underline"> Email </a> 
-        and  
-        <a href="https://linkedin.com/in/l-zhenyi" target="_blank" className="font-bold text-slate-400 hover:underline"> LinkedIn</a>{' '}<br></br>
-        You can also find all my projects and academic coursework at <a
+        For more information, you can take a look at my <a 
+          href="/assets/Lim_ZhenYi_Resume.pdf"
+          className="link">
+          resume
+          </a> and I am always available via <a 
+          href="mailto:zhenyi.lim.mail@gmail.com" 
+          className="link">
+          Email
+          </a> and <a 
+            href="https://linkedin.com/in/l-zhenyi" 
+            target="_blank"
+            className="link">
+              LinkedIn</a>.<br></br>
+          You can also find all my projects and academic coursework on my <a
             href="https://github.com/l-zhenyi"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-slate-400 hover:underline"
+            className="link"
           >
             GitHub
-          </a>
+          </a> and <a
+            href="/projects"
+            className="link"
+            >
+              Projects
+            </a> page.
       </p>
 
-    <h2 className="text-md text-slate-300 font-bold mb-px pt-4 md:pt-15">Further Reading</h2>
-    <div>
-     <Exchange exchange="In another life— // There is no other life. This is all we have." />
-    </div>
-    <p>
-    When not occupied with real-world tasks and responsibilities, I devour fiction in books and media for 
-    escapism. I started baking in 2020 and enjoyed baking (and eating) brownies the most, a passion which 
-    continues to this day.
-    </p>
+      <h2 className="text-md text-slate-300 font-bold mb-px pt-8 mt-10">Further Reading</h2>
+      <div>
+      <Exchange exchange="In another life— // There is no other life. // This is all we have." />
+      </div>
+      <p>
+        In a world where our lives are already so visually-saturated, I wanted to create a portfolio that focused
+        on the content and reading experience itself.
+      </p>
+      <p>
+        When not busy with real-world tasks and responsibilites, I enjoy baking brownies and consuming all 
+        types of fiction and art. 
+      </p>
     </div>
     </>
   )

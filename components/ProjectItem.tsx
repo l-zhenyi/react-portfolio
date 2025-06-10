@@ -24,12 +24,13 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
       <div className="text-slate-400 text-sm ml-5">
         Tech stack: {techStack}
         <br />
+        <div className="text-right">
         {sourceLink && (
           <a
             href={sourceLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="link"
           >
             Source code ↗
           </a>
@@ -40,11 +41,11 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
             href={additionalLink.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="link"
           >
             {additionalLink.label} ↗
           </a>
-        )}
+        )}</div>
         {note && <div className="italic">{note}</div>}
       </div>
     </li>

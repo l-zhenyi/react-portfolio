@@ -23,7 +23,7 @@ const quotes = [
 
   return (
     <>
-      <div className="md:py-8">
+      <div className="md:py-6">
       <Quotes quotes={quotes} />
       </div>
 
@@ -35,14 +35,14 @@ const quotes = [
           Feel free to venture further with the trusty navigation bar at the top. <br></br>
         </p> 
         <p>
-          Reading sparked my preference for minimalist, text-based mediums, which in turn, has heavily 
+          Reading sparked my preference for minimalist, text-based mediums, which heavily 
           influenced the style of this website.
         </p>
         <p>
-          It’s my earnest hope you'll find some small interesting snippets to read around here. There are some cool
-          things for you to find if you tap on them.
+          It’s my earnest hope you'll find some small interesting snippets to read around here.
         </p>
         <p>
+          I've left some of my favourite quotes and words for you to read if you tap on them.<br></br>
           The quote at the top might be a good place to start.
         </p>
         <p>
@@ -53,7 +53,7 @@ const quotes = [
           <span className="inline-flex space-x-4">
           <a
             href="mailto:zhenyi.lim.mail@gmail.com"
-            className="pl-4 font-bold text-slate-400 hover:underline"
+            className="md:pl-4 link"
           >
            Email
           </a>{' '}
@@ -61,7 +61,7 @@ const quotes = [
             href="https://linkedin.com/in/l-zhenyi"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-slate-400 hover:underline"
+            className="link"
           >
             LinkedIn
           </a>{' '}
@@ -69,7 +69,7 @@ const quotes = [
             href="https://github.com/l-zhenyi"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-slate-400 hover:underline"
+            className="link"
           >
             GitHub
           </a>
