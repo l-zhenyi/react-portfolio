@@ -4,7 +4,7 @@ import { Exchange } from '@/components/Story';
 const narration = [
   'You open the doors to an ancient library',
   'Shelves of books and bound scrolls tower over you',
-  'This place greets you like an old friend',
+  'It seems to greet you like an old friend',
   'Intigued, you walk over to the nearest shelf',
 ];
 
@@ -17,12 +17,18 @@ export default function Home() {
 <div className="text-base font-sans space-y-5 justify-center">      
   <p>
     There's bound to be something here that will pique your curiosity. 
-    You can tap on the links to examine them further. 
+    Tap on the links to examine them further. 
   </p>
 
 </div>
 
-<ul className="text-base font-sans space-y-5 list-disc list-inside mt-6 md:my-10">
+<ul className="text-base font-sans space-y-5 list-disc list-inside mt-6">
+      <ProjectItem
+        title="Plannit"
+        description="A social web app for event planning with group creation, member invites, and a friend system."
+        techStack="Python, Jinja, Flask, SQLite, Selenium, HTML, CSS, JavaScript, Bootstrap"
+        sourceLink="https://https://github.com/l-zhenyi/CITS3403Project_Group1_Sem1_2025"
+      />
       <ProjectItem
         title="Forum"
         description="A forum built with user posts, comments, and discussions, guided by a tutorial."

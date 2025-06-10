@@ -1,7 +1,6 @@
-// app/layout.tsx
 import './globals.css'
 import type { Metadata } from 'next'
-import { Navbar } from '../../components/NavBar';
+import { Navbar } from '@/components/NavBar';
 
 export const metadata: Metadata = {
   title: 'L. Zhen Yi',
