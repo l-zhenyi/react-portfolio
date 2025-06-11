@@ -47,6 +47,14 @@ export default function Home() {
         techStack="C"
         note="No source code due to academic conduct rules"
       />
+
+       <ProjectItem
+        title="But I have to Try"
+        description="A short visual novel and text-based adventure game."
+        techStack="Golang, Ebitengine"
+        sourceLink="https://github.com/l-zhenyi/Go_Futile"
+      />
+
       <ProjectItem
         title="SQL Series"
         description="SQL projects for cleaning, querying, and visualizing data."

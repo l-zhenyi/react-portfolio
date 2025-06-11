@@ -14,7 +14,8 @@ export default function Home() {
       <p>
         For more information, you can take a look at my <a 
           href="/assets/Lim_ZhenYi_Resume.pdf"
-          className="link">
+          className="link"
+          target="_blank">
           resume
           </a> and I am always available via <a 
           href="mailto:zhenyi.lim.mail@gmail.com" 

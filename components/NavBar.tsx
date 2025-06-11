@@ -16,10 +16,9 @@ export function Navbar() {
                         <a href="/" className="link">Home</a>
                         <a href="/about" className="link">About</a>
                         <a href="/projects" className="link">Projects</a>
-                        <a href="/assets/Lim_ZhenYi_Resume.pdf" className="link">Resume</a>  
+                        <a href="/assets/Lim_ZhenYi_Resume.pdf" className="link" target="_blank">Resume</a>  
                         <a href="/now" className="link">Now</a>
-                        {/* Not sure what more to say. The website is already quite text-based. */}
-                        {/* <a href="/misc" className="link">Misc.</a>                         */}
+                        <a href="/misc" className="link">Misc.</a>
                     </div>
             </div>
     )
