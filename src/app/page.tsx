@@ -39,11 +39,8 @@ const quotes = [
           influenced the style of this website.
         </p>
         <p>
-          It’s my earnest hope you'll find some small interesting snippets to read around here.
-        </p>
-        <p>
-          I've left some of my favourite quotes and words for you to read if you tap on them.<br></br>
-          The quote at the top might be a good place to start.
+          It’s my earnest hope you'll find some interesting snippets to read around here. The quote at the 
+          top might be a good place to start.
         </p>
         <p>
           You’re welcome to stay for as long as you need. Thanks for stopping by.
