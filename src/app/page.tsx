@@ -35,7 +35,7 @@ const quotes = [
           in dark mode.
         </p>
         <p>
-          I can always be found at: {' '}
+          I can be found at: {' '}
           <span className="inline-flex space-x-4">
           <a
             href="mailto:zhenyi.lim.mail@gmail.com"
