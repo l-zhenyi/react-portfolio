@@ -35,10 +35,6 @@ const quotes = [
           in dark mode.
         </p>
         <p>
-          I hope you'll find some interesting snippets to read around here. The quote(s) at the 
-          top are a good place to start.
-        </p>
-        <p>
           I can always be found at: {' '}
           <span className="inline-flex space-x-4">
           <a
