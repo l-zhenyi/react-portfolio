@@ -15,11 +15,7 @@ export function Navbar() {
                      <div className="flex flex-wrap justify-center space-x-2 text-base font-bold gap-2 md:flex-nowrap md:justify-end md:space-x-4 md:gap-0">
                         <a href="/" className="link">Home</a>
                         <a href="/about" className="link">About</a>
-                        <a href="/projects" className="link">Projects</a>
-                        <a href="/assets/Lim_ZhenYi_Resume.pdf" className="link" target="_blank">Resume</a>  
-                        <a href="/now" className="link">Now</a>
-                        <a href="/misc" className="link">Misc.</a>
-                    </div>
+                </div>
             </div>
     )
 }

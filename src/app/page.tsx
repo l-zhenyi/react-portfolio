@@ -31,19 +31,12 @@ const quotes = [
       <h2 className="text-md text-slate-300 font-bold mb-px">Home</h2>
       <div className="text-base font-sans space-y-5 justify-center">
         <p>
-          Hi. You’ve stumbled across my website. In case you're feeliing a little lost, have no fear. You're just on the homepage.<br></br>
-          Feel free to venture further with the trusty navigation bar at the top. <br></br>
-        </p> 
-        <p>
-          Reading sparked my preference for minimalist, text-based mediums, which heavily 
-          influenced the style of this website.
+          This portfolio combines my partiality towards minimalist, text-based mediums and reading 
+          in dark mode.
         </p>
         <p>
-          It’s my earnest hope you'll find some interesting snippets to read around here. The quote at the 
-          top might be a good place to start.
-        </p>
-        <p>
-          You’re welcome to stay for as long as you need. Thanks for stopping by.
+          I hope you'll find some interesting snippets to read around here. The quote(s) at the 
+          top are a good place to start.
         </p>
         <p>
           I can always be found at: {' '}
