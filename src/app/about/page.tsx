@@ -7,7 +7,7 @@ export default function Home() {
     <h2 className="text-md text-slate-300 font-bold mb-px pt-4">About</h2>
     <div className="text-base font-sans space-y-5 justify-center">
       <p>
-        I’m a software engineer and final-year computer science student. 
+        I’m a software engineer and computer science graduate. 
       </p>
       <p>
         You can find full details in my <a 
