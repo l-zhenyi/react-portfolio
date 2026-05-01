@@ -9,14 +9,14 @@ export default function Home() {
       <p>
         I’m a software engineer and computer science graduate. 
       </p>
-      <p>
+      {/* <p>
         You can find full details in my <a 
           href="/assets/Lim_ZhenYi_Resume.pdf"
           className="link"
           target="_blank">
           resume
           </a>.
-      </p>
+      </p> */}
 
       <h2 className="text-md text-slate-300 font-bold mb-px pt-8 mt-10">Further Reading</h2>
       <div>
